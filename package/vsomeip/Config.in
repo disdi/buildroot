@@ -1,0 +1,14 @@
+config BR2_PACKAGE_VSOMEIP
+  bool "vsomeip"
+	depends on BR2_INSTALL_LIBSTDCPP
+	select BR2_PACKAGE_LIBUSB
+	select BR2_PACKAGE_BOOST
+	select BR2_PACKAGE_BOOST_SYSTEM
+	select BR2_PACKAGE_BOOST_THREAD
+	select BR2_PACKAGE_BOOST_FILESYSTEM
+	help
+	  vsomeip An implementation of Scalable service-Oriented MiddlewarE over IP
+
+	  https://github.com/COVESA/vsomeip/
+
+comment "vsomeip needs a toolchain w/ C++ "

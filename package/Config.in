@@ -2578,6 +2578,7 @@ endif
 	source "package/vnstat/Config.in"
 	source "package/vpnc/Config.in"
 	source "package/vsftpd/Config.in"
+	source "package/vsomeip/Config.in"
 	source "package/vtun/Config.in"
 	source "package/wavemon/Config.in"
 	source "package/wget/Config.in"
